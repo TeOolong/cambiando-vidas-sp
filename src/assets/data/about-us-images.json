@@ -1,0 +1,37 @@
+{
+    "first_section" : {
+        "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/Mask-Group2.jpg"
+    }, 
+    "second_section" : {
+        "set" : [
+            { 
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/Mask-Group-6.jpg",
+                "title" : "Nuestra visión"    ,
+                "content" : "Trabajar por mejorar la calidad de vida de grupos humanos en situaciones de necesidad y riesgo, de la mano a un grupo de voluntarios comprometidos promoviendo el desarrollo de su comunidad."
+            },
+            { 
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/Mask-Group-1-2.jpg" ,
+                "title" : "Nuestra misión",
+                "content" : "Ser una organización peruana referente en el campo de desarrollo social con el grupo más extenso de voluntarios y donantes comprometidos en generar cambios positivos para nuestra sociedad."
+            }
+        ]
+    },
+    "third_section" : {
+        "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/objetivos-alcanzables.jpg"
+    },
+    "fifth_section" : {
+        "set" : [
+            { 
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/conoce-nuestros-proyectos.jpg",
+                "title": "Alimentación"
+            },
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/nosotros-salud.jpg",
+                "title": "Salud preventiva"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/educacion-nosotros.jpg",
+                "title": "Educación"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/animales-nosotros.jpg",
+                "title": "Animales"}
+        ]
+    }
+
+}

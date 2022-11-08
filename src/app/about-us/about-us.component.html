@@ -1,0 +1,227 @@
+<section
+  class="d-flex"
+  style="background-color: white; height: auto; padding: 12% 0 50px 0"
+>
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div class="container-xxl d-flex">
+        <div class="row justify-content-center align-self-center">
+          <div
+            class="col-6 first-section justify-content-center align-self-center d-flex"
+          >
+            <img [src]="imagesTemplate?.first_section.src" alt="" />
+          </div>
+          <div
+            class="col-6 first-section justify-content-center align-self-center"
+          >
+            <h3>CAMBIANDO VIDAS</h3>
+            <h1>Nuestra esencia.</h1>
+            <h5>
+              Somos una asociación sin fines de lucro que trabaja en diferentes
+              proyectos sociales dirigidos a las personas más necesitadas y
+              vulnerables del país.
+            </h5>
+            <h5>
+              Buscamos sembrar conciencia y generar un cambio de vidas por medio
+              de la alimentación, salud, educación y cuidado de los animales,
+              para realmente crear una transformación duradera, sostenible y que
+              impacte.
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="
+    background-image: url('/assets/images/layouts/bg-nosotros-cv.png');
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.13);
+  "
+>
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div class="container-xxl d-flex">
+        <div class="row justify-content-center align-self-center">
+          <div
+            class="col-xl-5 second-section justify-content-center align-self-center"
+          >
+            <h1>
+              Con esfuerzo y compromiso hemos cambiando la vida de miles de
+              personas
+            </h1>
+          </div>
+          <div
+            class="col-7 second-section justify-content-center align-self-center"
+          >
+            <div class="row">
+              <div
+                class="col-xl-5"
+                style="margin: auto"
+                *ngFor="let item of imagesTemplate?.second_section.set"
+              >
+                <img [src]="item.src" alt="" />
+                <h2>{{ item.title }}</h2>
+                <p>{{ item.content }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="
+    background-color: #fef6df;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url('/assets/images/layouts/bg-nosotros3.png');
+  "
+>
+  <div class="container-xxl">
+    <div
+      class="row justify-content-center align-self-center"
+      style="width: 100%"
+    >
+      <div class="col-6 third-section">
+        <h1>Nuestros objetivos son alcanzables solo si TÚ participas</h1>
+      </div>
+      <div class="col-6 third-section">
+        <img [src]="imagesTemplate?.third_section.src" alt="" />
+      </div>
+    </div>
+    <div
+      class="row justify-content-center align-self-center third-section"
+      style="width: 100%; margin-top: 30px"
+    >
+      <div class="col-12" class="goals-list">
+        <ol>
+          <li>
+            <div>
+              Implementar proyectos que abarquen diferentes áreas sociales, para
+              brindar una ayuda integral.
+            </div>
+          </li>
+          <li>
+            <div>
+              Desarrollar diversos programas que ayuden a las comunidades y
+              vidas más vulnerables en el Perú.
+            </div>
+          </li>
+          <li>
+            <div>
+              Trabajar valores en niños, jóvenes y adultos, con el fin de
+              construir una sociedad más integral.
+            </div>
+          </li>
+          <li>
+            <div>
+              Motivar a la sociedad para realizar trabajos sociales y crearles
+              conciencia para ayudar a los demás.
+            </div>
+          </li>
+          <li>
+            <div>
+              Contar con el más extenso grupo de voluntarios y donantes activos,
+              participando en nuestros proyectos.
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+<section style="background-color: white; height: auto">
+  <div class="container-xxl">
+    <div
+      class="row justify-content-center align-self-center"
+      style="text-align: center"
+    >
+      <div
+        class="col-9 fourth-section justify-content-center align-self-center"
+      >
+        <h1>
+          Trabajamos de la mano con nuestras autoridades para un cambio justo y
+          positivo
+        </h1>
+      </div>
+    </div>
+    <div
+      class="row justify-content-center align-self-center"
+      style="width: 100%"
+    >
+      <div class="col-2"></div>
+      <div class="col-3 fourth-section data-container">
+        <div>
+          <h4>
+            AUTORIZACIÓN DE COLECTAS PÚBLICAS APROBADA POR EL MINISTERIO DEL
+            INTERIOR
+          </h4>
+          <button (click)="redirectDocument('a')">Descargar aquí</button>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+
+      <div class="col-3 fourth-section data-container">
+        <div>
+          <h4>POLÍTICAS DE SEGURIDAD Y SALUD LABORAL FRENTE AL COVID-19</h4>
+          <button (click)="redirectDocument('b')">Descargar aquí</button>
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="background-color: #d0f1fd; background-position: center"
+>
+  <div class="container-xxl">
+    <div
+      class="row justify-content-center align-self-center"
+      style="width: 100%"
+    >
+      <div class="col-4 fifth-section">
+        <h3>CAMBIANDO VIDAS</h3>
+        <h1>Sé parte del cambio</h1>
+      </div>
+      <div
+        class="col-xl-8 fifth-section justify-content-center align-self-center"
+        style="padding: 0 25px"
+      >
+        <div class="row">
+          <div
+            class="col-3"
+            style="margin: auto"
+            *ngFor="let item of imagesTemplate?.fifth_section.set"
+          >
+            <img [src]="item.src" alt="" />
+            <h2>{{ item.title }}</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="background-color: #50ba80; background-position: center"
+>
+  <div class="container-xxl">
+    <div
+      class="row justify-content-center align-self-center"
+      style="width: 100%"
+    >
+      <div
+        class="col-12 sixth-section justify-content-center align-self-center"
+      >
+        <h1>La esencia de la vida es servir a otros y hacer el bien</h1>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,168 @@
+<p>health-project works!</p>
+<section style="background-color: white; height: auto; padding: 12% 0 50px 0">
+  <div class="container-xxl">
+    <div
+      class="row justify-content-center align-self-center"
+      style="text-align: center; margin-top: 20px"
+    >
+      <div
+        class="col-10 first-section justify-content-center align-self-center"
+      >
+        <h1>Proyectos de Salud Preventiva</h1>
+        <h2>
+          Trabajamos en el apoyo de los más necesitados, llevando a cabo
+          jornadas de salud preventiva gratuita a sus comunidades.
+        </h2>
+        <button>Deseo donar a este proyecto</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="
+    background-color: white;
+    background-image: url('/assets/images/layouts/proyectos-bg.png');
+    background-position: center;
+    background-size: 80% 80%;
+  "
+>
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-6 second-section justify-content-center align-self-center"
+      >
+        <h1>Jornadas de Salud Preventiva</h1>
+        <h5>
+          Realizamos campañas gratuitas para el despistaje de hipertensión,
+          diabetes y obesidad, con el fin de cuidar la salud en adultos y
+          adultos mayores.
+        </h5>
+        <h5>
+          Mensualmente beneficiamos a más de 40 vidas con nuestras jornadas.
+        </h5>
+        <h4>La prevención es el inicio de una vida saludable.</h4>
+      </div>
+      <div class="col-1"></div>
+      <div
+        class="col-5 second-section justify-content-center align-self-center"
+      >
+        <ngb-carousel *ngIf="imagesTemplate" [interval]="5000">
+          <ng-template
+            ngbSlide
+            *ngFor="let image of imagesTemplate.second_section.slider"
+          >
+            <div class="picsum-img-wrapper wrapper-image-carousel">
+              <img [src]="image.src" class="image-carousel" />
+            </div>
+          </ng-template>
+        </ngb-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="
+    background-color: #f3fcff;
+    background-image: url('/assets/images/layouts/proyectos-bg-celeste.png');
+    background-position: center;
+    background-size: 80% 80%;
+  "
+>
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-5 second-section justify-content-center align-self-center"
+      >
+        <ngb-carousel *ngIf="imagesTemplate" [interval]="5000">
+          <ng-template
+            ngbSlide
+            *ngFor="let image of imagesTemplate.third_section.slider"
+          >
+            <div class="picsum-img-wrapper wrapper-image-carousel">
+              <img [src]="image.src" class="image-carousel" />
+            </div>
+          </ng-template>
+        </ngb-carousel>
+      </div>
+      <div class="col-1"></div>
+      <div
+        class="col-6 second-section justify-content-center align-self-center"
+      >
+        <h1>Jornadas de Despistaje de Anemia</h1>
+        <h5>
+          Llevamos a cabo campañas de despistaje de anemia para los niños de las
+          comunidades más necesitadas, con el fin de detectar o descartar esta
+          enfermedad que actualmente afecta a muchos infantes.
+        </h5>
+        <h4>
+          Beneficiamos de forma mensual a 30 niños y niñas en situación de
+          vulnerabilidad.
+        </h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section
+  class="d-flex"
+  style="
+    background-color: white;
+    background-image: url('/assets/images/layouts/proyectos-bg.png');
+    background-position: center;
+    background-size: 80% 80%;
+  "
+>
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-6 second-section justify-content-center align-self-center"
+      >
+        <h1>Charlas preventivas</h1>
+        <h5>
+          Brindamos charlas preventivas en la comunidad, con el fin de cuidar y
+          fortalecer su salud a través de prácticas importantes, como una
+          correcta alimentación, que les permitirá tener una vida saludable.
+        </h5>
+
+        <h4>
+          Mensualmente beneficiamos a más de 35 vidas con nuestras charlas
+          preventivas.
+        </h4>
+      </div>
+      <div class="col-1"></div>
+      <div
+        class="col-5 second-section justify-content-center align-self-center"
+      >
+        <ngb-carousel *ngIf="imagesTemplate" [interval]="5000">
+          <ng-template
+            ngbSlide
+            *ngFor="let image of imagesTemplate.fourth_section.slider"
+          >
+            <div class="picsum-img-wrapper wrapper-image-carousel">
+              <img [src]="image.src" class="image-carousel" />
+            </div>
+          </ng-template>
+        </ngb-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="background-color: #50ba80; background-position: center"
+>
+  <div class="container-xxl">
+    <div
+      class="row justify-content-center align-self-center"
+      style="width: 100%"
+    >
+      <div
+        class="col-12 fourth-section justify-content-center align-self-center"
+      >
+        <h1>La Salud es el regalo más grande</h1>
+      </div>
+    </div>
+  </div>
+</section>

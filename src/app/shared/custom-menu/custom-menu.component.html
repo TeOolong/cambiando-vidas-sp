@@ -1,0 +1,82 @@
+<div class="navbar" (scroll)="onWindowScroll()">
+  <div class="banner">
+    <div class="container-xl">
+      <div class="row">
+        <h5>Telf.: (01) 7576969</h5>
+        <h5>Av Arequipa 44+8 - Miraflores</h5>
+      </div>
+    </div>
+  </div>
+  <div class="container-xl" style="position: relative; display: block">
+    <nav style="justify-content: space-between">
+      <img src="{{ logoSrc }}" width="80" height="80" />
+      <div class="menu">
+        <ng-container *ngFor="let nav of navList; let i = index">
+          <button
+            mat-button
+            [matMenuTriggerFor]="aboveMenu"
+            *ngIf="nav.children"
+          >
+            {{ nav.name }}
+          </button>
+          <button
+            mat-button
+            *ngIf="!nav.children"
+            routerLink="{{ nav.fullPath }}"
+            routerLinkActive="active"
+          >
+            {{ nav.name }}
+          </button>
+          <mat-menu #aboveMenu="matMenu">
+            <button
+              *ngFor="let child of nav.children; let i = index"
+              routerLink="{{ child.fullPath }}"
+              mat-menu-item
+            >
+              {{ child.name }}
+            </button>
+          </mat-menu>
+        </ng-container>
+      </div>
+      <button mat-icon-button (click)="sidenav.toggle()" class="toggle-button">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </nav>
+  </div>
+</div>
+<mat-sidenav #sidenav="matSidenav" class="sidebar">
+  <mat-nav-list>
+    <ng-container *ngFor="let nav of navList; let i = index">
+      <mat-list-item
+        routerLink="{{ nav.fullPath }}"
+        routerLinkActive="active"
+        mat-list-item
+        (click)="sidenav.toggle()"
+        *ngIf="!nav.children"
+      >
+        {{ nav.name }}
+      </mat-list-item>
+      <mat-expansion-panel *ngIf="nav.children" [class.mat-elevation-z0]="true">
+        <mat-expansion-panel-header>
+          {{ nav.name }}
+        </mat-expansion-panel-header>
+        <mat-nav-list>
+          <a
+            *ngFor="let child of nav.children; let i = index"
+            mat-list-item
+            routerLink="{{ child.fullPath }}"
+            routerLinkActive="active"
+            >{{ child.name }}</a
+          >
+        </mat-nav-list>
+      </mat-expansion-panel>
+    </ng-container>
+
+    <!-- <a href="#" mat-list-item>Menu Item 2</a>
+    <a href="#" mat-list-item>Menu Item 3</a>
+    <a href="#" mat-list-item>Menu Item 4</a>
+    <a href="#" mat-list-item>Menu Item 5</a>
+    <a href="#" mat-list-item>Menu Item 6</a> -->
+  </mat-nav-list>
+</mat-sidenav>
+<router-outlet></router-outlet>

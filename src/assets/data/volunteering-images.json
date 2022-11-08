@@ -1,0 +1,72 @@
+{
+    "first_section" : {
+        "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/voluntarios-portada.png"
+    },
+    "second_section" : {
+        "set" : [
+            {
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/edad-voluntariado.png",
+                "title" : "Edad",
+                "content" : "Ser Mayor de 18 años. En caso de ser menor de edad o contar con alguna discapacidad, debe asistir acompañado de un representante mayor de 18 años."
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/vestimenta-voluntariado.png",
+                "title" : "Vestimenta",
+                "content" : "Asistir de preferencia con ropa cómoda (jean, polo blanco y zapatillas)."
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/insumos-voluntariado.png",
+                "title" : "Insumos",
+                "content" : "Llevar agua y snacks (galletas, barras de cereal, etc) para su consumo. \nAlgunos voluntariados son en zonas retiradas en donde se dificulta comprar este tipo de productos."
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/traslado-voluntariado.png",
+                "title" : "Traslado",
+                "content" : "Traer al menos S/.5 para su pasaje. No contamos con movilidad propia, por lo que en muchas ocasiones tomamos transporte público."
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/voluntariado-voluntariado.png",
+                "title" : "Voluntariado",
+                "content" : "No esperar una contraprestación económica o material.\n Esta es una labor de voluntariado."
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/motivacion-voluntariado.png",
+                "title" : "Motivación",
+                "content" : "Tener muchas ganas de ayudar."
+            }
+        ]
+    },
+    "third_section" : {
+        "set_a" : [
+            {
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/rrss-voluntario-1.png",
+                "title" : "Amplía tus redes sociales"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/realizacion-voluntario-1.png",
+                "title" : "Relización personal"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/valor-voluntario-1.png",
+                "title" : "Agrega valor a tu hoja de vida"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/conocimiento-voluntario-1.png",
+                "title" : "Expande tus conocimientos"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/saludable-voluntario-1.png",
+                "title" : "Te mantienes saludable"
+            }
+        ],
+        "set_b" : [
+            {
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/competencia-voluntario-1.png",
+                "title" : "Cumples tus objetivos."
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/sociedad-voluntario-1.png",
+                "title" : "Ser útil para la sociedad."
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/tiempo-voluntario-1.png",
+                "title" : "Inviertes tu tiempo libre."
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/huella-voluntario-1.png",
+                "title" : "Dejas huella."
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/divertirte-voluntario-1.png",
+                "title" : "¡Te Diviertes!"
+            }
+        ]
+    }
+}

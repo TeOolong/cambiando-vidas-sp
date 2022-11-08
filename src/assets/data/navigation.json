@@ -1,0 +1,40 @@
+[
+    {
+        "name" : "Inicio",
+        "fullPath" : "/home"
+    },
+    {
+        "name" : "Nosotros",
+        "fullPath" : "/about-us"
+    },
+    {
+        "name" : "Proyectos",
+        "children" : [
+            {
+                "name" : "Proyecto de Alimentación",
+                "fullPath" : "/food-project"
+            },{
+                "name" : "Proyecto de Educación",
+                "fullPath" : "/education-project"
+            },{
+                "name" : "Proyecto de Animales",
+                "fullPath" : "/animals-project"
+            },{
+                "name" : "Proyecto de Salud",
+                "fullPath" : "/health-project"
+            }   
+        ]
+    },
+    {
+        "name" : "Voluntariado",
+        "fullPath" : "/volunteering"
+    },
+    {
+        "name" : "Aliados del Cambio",
+        "fullPath" : "/allies"
+    },
+    {
+        "name" : "Contacto",
+        "fullPath" : "/contact"
+    }
+]

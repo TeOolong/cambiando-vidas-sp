@@ -1,0 +1,276 @@
+<section
+  class="d-flex"
+  style="background-color: white; height: auto; padding: 12% 0 50px 0"
+>
+  <div class="container-xxl d-flex">
+    <div
+      class="row justify-content-center align-self-center"
+      style="text-align: center"
+    >
+      <div
+        class="col-12 first-section justify-content-center align-self-center"
+      >
+        <h1>Aliados del cambio</h1>
+        <h2>
+          Como asociación interesada en el bienestar de las comunidades más
+          vulnerables, Cambiando Vidas busca unificar los esfuerzos de nuestros
+          donantes, voluntarios, el estado y del sector privado, con el objetivo
+          de lograr que el desarrollo de nuestros proyectos sociales sea
+          sostenible en el tiempo.
+        </h2>
+        <h2>
+          Así es como a través de la responsabilidad social por parte de las
+          empresas, tenemos la certeza de que podremos generar ayudas que
+          realmente marquen un cambio positivo.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="background-color: #fef6df; background-position: center"
+>
+  <div class="container-xxl d-flex">
+    <div
+      class="row justify-content-center align-self-center"
+      style="width: 100%"
+    >
+      <div
+        class="col-12 second-section justify-content-center align-self-center"
+      >
+        <h1>¿Qué podemos hacer como Aliados del cambio?</h1>
+
+        <div
+          class="justify-content-center align-self-center"
+          style="display: flex; width: 100%"
+        >
+          <div
+            class="proyect-card"
+            *ngFor="let content of imagesTemplate?.second_section.slider"
+          >
+            <mat-card>
+              <img mat-card-image [src]="content.src" [alt]="content.title" />
+              <mat-card-header>
+                <mat-card-title style="text-align: center">{{
+                  content.title
+                }}</mat-card-title>
+              </mat-card-header>
+              <mat-card-content>
+                <p>
+                  {{ content.content }}
+                </p>
+              </mat-card-content>
+            </mat-card>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section
+  class="d-flex"
+  style="
+    background-color: white;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url('/assets/images/layouts/bg-nosotros3.png');
+  "
+>
+  <div class="container-xxl">
+    <div
+      class="row justify-content-center align-self-center"
+      style="width: 100%"
+    >
+      <div class="col-6 third-section">
+        <h1>Beneficios de la Alianza</h1>
+      </div>
+      <div class="col-6">
+        <img [src]="imagesTemplate?.third_section.src" alt="" />
+      </div>
+    </div>
+    <div
+      class="row justify-content-center align-self-center third-section"
+      style="width: 100%; margin-top: 30px"
+    >
+      <div class="col-12" class="goals-list">
+        <ol>
+          <li><div>Reporte del proyecto</div></li>
+          <li><div>Difusión de Alianza en nuestros canales digitales.</div></li>
+          <li>
+            <div>
+              Beneficios fiscales: Deducción del pago de impuestos que puede
+              llegar a ser hasta un 10%.
+            </div>
+          </li>
+          <li>
+            <div>
+              Marca con fin social: Tu marca transmitirá una imagen de interés
+              social, haciéndola más humana ante tus clientes y colaboradores.
+            </div>
+          </li>
+          <li>
+            <div>
+              Desarrollo de proyectos: Unidos trabajaremos en el desarrollo de
+              proyectos y labores con fin social.
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="d-flex" style="background-color: white; height: auto">
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-12 sixth-section justify-content-center align-self-center"
+      >
+        <p-carousel
+          [value]="imagesTemplate?.fourth_section.slider_a"
+          [numVisible]="9"
+          [numScroll]="1"
+          [circular]="true"
+          [autoplayInterval]="4000"
+          [showIndicators]="true"
+          [showNavigators]="true"
+          [responsiveOptions]="responsiveOptions"
+        >
+          <ng-template let-item pTemplate="item">
+            <div>
+              <img src="{{ item.src }}" />
+            </div>
+          </ng-template>
+        </p-carousel>
+      </div>
+      <div
+        class="col-12 sixth-section justify-content-center align-self-center"
+      >
+        <p-carousel
+          [value]="imagesTemplate?.fourth_section.slider_b"
+          [numVisible]="9"
+          [numScroll]="1"
+          [circular]="true"
+          [autoplayInterval]="4000"
+          [showIndicators]="true"
+          [showNavigators]="true"
+          [responsiveOptions]="responsiveOptions"
+        >
+          <ng-template let-item pTemplate="item">
+            <div>
+              <img src="{{ item.src }}" />
+            </div>
+          </ng-template>
+        </p-carousel>
+      </div>
+      <div
+        class="col-12 sixth-section justify-content-center align-self-center"
+      >
+        <p-carousel
+          [value]="imagesTemplate?.fourth_section.slider_c"
+          [numVisible]="9"
+          [numScroll]="1"
+          [circular]="true"
+          [autoplayInterval]="4000"
+          [showIndicators]="true"
+          [showNavigators]="true"
+          [responsiveOptions]="responsiveOptions"
+        >
+          <ng-template let-item pTemplate="item">
+            <div>
+              <img src="{{ item.src }}" />
+            </div>
+          </ng-template>
+        </p-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="background-color: #fef6df; background-position: center"
+>
+  <div class="container-xxl">
+    <div
+      class="row justify-content-center align-self-center"
+      style="width: 100%"
+    >
+      <div class="col-4 fourth-section">
+        <h3>ALIANZAS EMPRESARIALES</h3>
+        <h1>Súmate y ayúdanos a crear cambios</h1>
+      </div>
+      <div
+        class="col-xl-8 fourth-section justify-content-center align-self-center"
+        style="padding: 0 25px"
+      >
+        <div
+          style="padding: 30px; background-color: #fab500; border-radius: 10px"
+        >
+          <form [formGroup]="contactForm" class="contact-form">
+            <div class="row">
+              <h4>
+                Juntos podemos cambiar la realidad de muchas vidas vulnerables.
+              </h4>
+              <h5>Déjanos tus datos y nos comunicaremos contigo:</h5>
+            </div>
+            <div class="row">
+              <div class="col-12 mat-input">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nombre"
+                  formControlName="name"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mat-input">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email"
+                  formControlName="email"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mat-input">
+                <textarea
+                  type="text"
+                  class="form-control"
+                  placeholder="Mensaje"
+                  formControlName="message"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <button type="button" (click)="onSubmit()">
+                  Enviar mensaje
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="background-color: #50ba80; background-position: center"
+>
+  <div class="container-xxl">
+    <div
+      class="row justify-content-center align-self-center"
+      style="width: 100%"
+    >
+      <div
+        class="col-12 fifth-section justify-content-center align-self-center"
+      >
+        <h1>Juntos podemos marcar la diferencia</h1>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,128 @@
+section {
+  height: auto;
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 100%;
+  padding: 8% 0 50px 0;
+}
+
+.first-section {
+  color: #33312d;
+  img {
+    width: 100%;
+    vertical-align: middle;
+    height: 70%;
+    max-height: 700px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  h1 {
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  h5 {
+    font-family: "Quicksand";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 30px;
+  }
+  h4 {
+    font-family: "Quicksand";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+  button {
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border-color: #fab500;
+    padding: 12px 24px;
+    border-style: solid;
+    margin-top: 30px;
+  }
+  h2 {
+    font-family: "Quicksand";
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+  }
+}
+
+.contact-icons {
+  img {
+    height: 64px;
+    width: 64px;
+    background-color: white;
+  }
+}
+
+.contact-data {
+  padding: 0 30px;
+}
+
+.contact-form {
+  margin-top: 15px;
+  padding: 30px;
+  .row {
+    margin-bottom: 20px;
+  }
+  .mat-input {
+    font-family: "Quicksand";
+    font-size: 20px;
+  }
+  button {
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    width: 100%;
+    color: white;
+    background-color: #33312d;
+    border-style: solid;
+    border-color: #fab500;
+    border-radius: 10px 10px 10px 10px;
+    min-height: 72px;
+  }
+}
+
+.second-section {
+  color: #33312d;
+  img {
+    width: 100%;
+    vertical-align: middle;
+    width: 100%;
+  }
+  h1 {
+    font-family: "Poppins";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+  }
+  h2 {
+    font-family: "Quicksand";
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 30px;
+  }
+  button {
+    background-color: transparent;
+    color: black;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px 10px 10px 10px;
+    border-color: #fab500;
+    padding: 12px 24px;
+    border-style: solid;
+    margin-top: 30px;
+  }
+}

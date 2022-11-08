@@ -1,0 +1,35 @@
+{
+    "second_section" : {
+        "slider" : [
+            { 
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/Mask-Group-4.jpg"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/Mask-Group-3.jpg"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/Mask-Group-2.jpg"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/Mask-Group-5.jpg"
+            },
+            {
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/Mask-Group.jpg"
+            }
+        ]
+    },
+    "third_section" : {
+        "slider" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/Mask-Group-4-1.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/Mask-Group-3-1.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/Mask-Group-2-1.jpg" },
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/Mask-Group-1-1.jpg" },
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/Mask-Group-5.jpg" }
+        ]
+    },"fourth_section" : {
+        "slider" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/Mask-Group-4-2.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/Mask-Group-3-2.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/Mask-Group-2-2.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/Mask-Group-1-2.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/Mask-Group-6.jpg"}
+        ]
+    }
+}

@@ -1,0 +1,137 @@
+<section class="d-flex" style="background-color: white">
+  <div class="container-sm" style="width: 65%">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-xl-7 first-section justify-content-center align-self-center"
+      >
+        <h1>Contáctanos</h1>
+        <h5>
+          Si quieres conocer más sobre Cambiando Vidas, déjanos tus datos y nos
+          comunicaremos contigo.
+        </h5>
+      </div>
+      <div
+        class="col-sm-5 first-section justify-content-center align-self-center"
+      >
+        <img [src]="imagesTemplate?.first_section.src" alt="" />
+      </div>
+    </div>
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-xl-7 first-section justify-content-center align-self-center"
+        style="margin-top: 40px; padding: 25px"
+      >
+        <div
+          style="padding: 30px; background-color: #e0e0e0; border-radius: 10px"
+        >
+          <form [formGroup]="contactForm" class="contact-form">
+            <div class="row">
+              <div class="col-12 mat-input">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nombre"
+                  formControlName="name"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mat-input">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email"
+                  formControlName="email"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mat-input">
+                <textarea
+                  type="text"
+                  class="form-control"
+                  placeholder="Mensaje"
+                  formControlName="message"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <button type="button" (click)="onSubmit()">
+                  Enviar mensaje
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div
+        class="col-sm-5 first-section justify-content-center align-self-center"
+        style="margin-top: 40px; padding: 15px"
+      >
+        <div
+          style="padding: 30px; background-color: #fab500; border-radius: 10px"
+        >
+          <div class="row">
+            <div class="col-12 contact-icons d-flex" style="padding: 15px">
+              <img
+                src="https://cambiandovidas-peru.org/wp-content/uploads/2022/01/Group-35.png"
+                class="attachment-full size-full"
+              />
+              <div class="contact-data">
+                <h2>Dirección</h2>
+                <h4>Av. Arequipa 4468 - Miraflores​</h4>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 contact-icons d-flex" style="padding: 15px">
+              <img
+                src="https://cambiandovidas-peru.org/wp-content/uploads/2022/01/Group-36.png"
+                class="attachment-full size-full"
+              />
+              <div class="contact-data">
+                <h2>Teléfono</h2>
+                <h4>(01) 7576969​</h4>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 contact-icons d-flex" style="padding: 15px">
+              <img
+                src="https://cambiandovidas-peru.org/wp-content/uploads/2022/01/Group-37.png"
+                class="attachment-full size-full"
+              />
+              <div class="contact-data">
+                <h2>Correo</h2>
+                <h4>donante@cambiandovidasperu.com​</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="background-color: #fef6df; height: auto; padding: 5% 0"
+>
+  <div class="container-xxl d-flex">
+    <div
+      class="row justify-content-center align-self-center"
+      style="text-align: center"
+    >
+      <div
+        class="col-10 second-section justify-content-center align-self-center"
+      >
+        <h1>Si eres una empresa y quieres ser parte del cambio</h1>
+        <h2>
+          Comunícate con nosotros y conoce los beneficios de ser una empresa
+          solidaria.
+        </h2>
+        <button>Mas información</button>
+      </div>
+    </div>
+  </div>
+</section>

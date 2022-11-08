@@ -1,0 +1,108 @@
+{
+    "first_section" : {
+        "slider" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/slider2-cambiando-vidas.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/slider-cambiando-vidas.jpg"}
+        ]
+    },
+    "second_section" : {
+        "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/juntos-hacemos-la-diferencia.jpg"
+    }, 
+    "third_section" : {
+        "slider" : [
+            { 
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/proyecto-alimentacion.jpg",
+                "title" : "Alimentación",
+                "content" : "Brindamos alimentación y esperanza para los más vulnerables."
+            },
+            { 
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/proyecto-salud.jpg",
+                "title" : "Salud Preventiva",
+                "content" : "La prevención es el primer paso para una vida saludable."
+            },
+            { 
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/proyecto-educacion.jpg",
+                "title" : "Educación",
+                "content" : "Promovemos el emprendimiento brindando herramientas de aprendizaje."
+            },
+            { 
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/proyecto-annimales.jpg",
+                "title" : "Animales",
+                "content" : "Velamos por el cuidado de animales en situación de calle."
+            }
+        ]
+    },
+    "fourth_section" : {
+        "slider" : [
+            {
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/Group.png",
+                "number" : 80000,
+                "content" : "Vidas beneficiadas a lo largo de nuestra trayectoria"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/Group-12.png",
+                "number" : 15,
+                "content" : "Vidas beneficiadas a lo largo de nuestra trayectoria"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/voluntariado-icon-01.png",
+                "number" : 250,
+                "content" : "Vidas beneficiadas a lo largo de nuestra trayectoria"
+            }
+        ]
+    },
+    "fifth_section" : {
+        "slider" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/voluntario-slider-1.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/voluntario-slider-2.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/voluntario-slider-3.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/voluntario-slider-4.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/voluntario-slider-5.jpg"}
+        ]
+    },
+    "sixth_section" : {
+        "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/Mask-Group-3.jpg"
+    },
+    "seventh_section" : {
+        "slider_a" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados_Mesa-de-trabajo-1-copia-2-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados_Mesa-de-trabajo-1-copia-3-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados_Mesa-de-trabajo-1-copia-4-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados_Mesa-de-trabajo-1-copia-5-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados_Mesa-de-trabajo-1-copia-6-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados_Mesa-de-trabajo-1-copia-7-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados_Mesa-de-trabajo-1-copia-8-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados_Mesa-de-trabajo-1-copia-9-300x225.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados_Mesa-de-trabajo-1-copia-10-300x225.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados_Mesa-de-trabajo-1-copia-11-300x225.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados_Mesa-de-trabajo-1-copia-12-300x225.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados_Mesa-de-trabajo-1-copia-13-300x225.jpg"}
+        ],"slider_b" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados_Mesa-de-trabajo-1-copia-15-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados_Mesa-de-trabajo-1-copia-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-16-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-17-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-18-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-19-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-20-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-21-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-22-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-23-300x225.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-36-300x226.jpg"} 
+
+        ],"slider_c" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-27-300x226.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-28-300x226.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-29-300x226.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-30-300x226.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-31-300x226.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-32-300x226.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-33-300x226.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-34-300x226.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-35-300x226.jpg"} ,
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/logos-aliados-37-300x226.jpg"}
+        ]
+    },
+    "eigth_section" : {
+        "img1" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/Mask-Group-4.jpg",
+        "img2" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/01/adoptame.jpg"
+    }
+}

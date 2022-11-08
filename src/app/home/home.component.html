@@ -1,0 +1,359 @@
+<section
+  class="d-flex"
+  style="
+    background-image: url('/assets/images/layouts/cambiando-vidas-slider-fondo.png');
+    background-color: #fef6df;
+  "
+>
+  <div class="container-xxl d-flex">
+    <div
+      class="row justify-content-center align-self-center"
+      style="padding-top: 8%"
+    >
+      <div class="col-6 first-section justify-content-center align-self-center">
+        <h1>Crear un cambio positivo está en tus manos</h1>
+        <h5>
+          Con tu apoyo podemos crear el cambio que queremos ver en el mundo.
+        </h5>
+        <button>Donar ahora</button>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-5">
+        <ngb-carousel *ngIf="imagesTemplate" [interval]="5000">
+          <ng-template
+            ngbSlide
+            *ngFor="let image of imagesTemplate.first_section.slider"
+          >
+            <div class="picsum-img-wrapper wrapper-image-carousel">
+              <img [src]="image.src" class="image-carousel" />
+            </div>
+          </ng-template>
+        </ngb-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="d-flex" style="background-color: white">
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-6 second-section justify-content-center align-self-center"
+      >
+        <img [src]="imagesTemplate?.second_section.src" alt="" />
+      </div>
+      <div
+        class="col-6 second-section justify-content-center align-self-center"
+      >
+        <h1>Juntos hacemos la diferencia.</h1>
+        <h5>
+          Somos una asociación sin fines de lucro que trabaja en diferentes
+          proyectos sociales, dirigidos a las vidas más necesitadas y
+          vulnerables.
+        </h5>
+        <button>Conocer más</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="
+    background-image: url('/assets/images/layouts/bg-nubes-home.png');
+    background-color: #d0f1fd;
+    background-size: 80% 80%;
+    background-position: center;
+  "
+>
+  <div class="container-xxl d-flex">
+    <div
+      class="row justify-content-center align-self-center"
+      style="width: 100%"
+    >
+      <div
+        class="col-12 third-section justify-content-center align-self-center"
+      >
+        <h3>CONSTRUYENDO UN MUNDO MEJOR</h3>
+        <h1>Nuestros proyectos</h1>
+        <h5>
+          Creemos en los cambios positivos y en el cómo a través de nuestras
+          acciones podemos mejorar la realidad de muchas vidas.
+        </h5>
+        <div
+          class="justify-content-center align-self-center"
+          style="display: flex; width: 100%"
+        >
+          <div
+            class="proyect-card"
+            *ngFor="let content of imagesTemplate?.third_section.slider"
+          >
+            <mat-card>
+              <img mat-card-image [src]="content.src" [alt]="content.title" />
+              <mat-card-header>
+                <mat-card-title style="text-align: center">{{
+                  content.title
+                }}</mat-card-title>
+              </mat-card-header>
+              <mat-card-content>
+                <p>
+                  {{ content.content }}
+                </p>
+              </mat-card-content>
+            </mat-card>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="d-flex" style="background-color: white; height: 600px">
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-12 fourth-section observer justify-content-center align-self-center"
+      >
+        <h3>ESTAMOS CREANDO CAMBIOS</h3>
+        <h1>Nuestro impacto</h1>
+        <h5 style="font-size: 20px; letter-spacing: 1px; line-height: 25px">
+          A través de nuestra labor, son más de 2.000 vidas beneficiadas
+          mensualmente, en quienes dejamos una huella positiva, para construir
+          una sociedad más consciente y solidaria.
+        </h5>
+        <div
+          class="justify-content-center align-self-center"
+          style="display: flex; margin-top: 60px"
+        >
+          <div
+            *ngFor="let content of imagesTemplate?.fourth_section.slider"
+            style="margin: 0 5%"
+          >
+            <img [src]="content.src" alt="" />
+            <h1
+              [countUp]="content.number"
+              [duration]="duration"
+              prefix="+"
+            ></h1>
+            <h5>{{ content.content }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="background-color: #f8f9f3; height: auto; padding: 50px 0"
+>
+  <div class="container-xxl d-flex fifth-section">
+    <div class="row justify-content-center align-self-center">
+      <div class="col-12 justify-content-center align-self-center">
+        <h3>NO HAY CORAZÓN MÁS GRANDE QUE EL DE UN VOLUNTARIO</h3>
+        <h1>Sé un voluntario de vida</h1>
+      </div>
+      <div
+        class="row justify-content-center align-self-center"
+        style="margin-top: 15px"
+      >
+        <div class="col-6 justify-content-center align-self-center">
+          <ngb-carousel *ngIf="imagesTemplate" [interval]="5000">
+            <ng-template
+              ngbSlide
+              *ngFor="let image of imagesTemplate.fifth_section.slider"
+            >
+              <div class="picsum-img-wrapper wrapper-image-carousel">
+                <img [src]="image.src" class="image-carousel2" />
+              </div>
+            </ng-template>
+          </ngb-carousel>
+        </div>
+        <div
+          class="col-6 justify-content-center align-self-center"
+          style="background-color: #fab500; padding: 5% 5%; text-align: left"
+        >
+          <h4>
+            El corazón de un voluntario es bondadoso y preocupado por el
+            bienestar de los menos afortunados. Para nosotros es fundamental
+            contar con tu apoyo.
+          </h4>
+          <h5>Déjanos tus datos y nos comunicaremos contigo:</h5>
+          <form [formGroup]="contactForm" class="contact-form">
+            <div class="row">
+              <div class="col-12 mat-input">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nombre"
+                  formControlName="name"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mat-input">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email"
+                  formControlName="email"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mat-input">
+                <textarea
+                  type="text"
+                  class="form-control"
+                  placeholder="Mensaje"
+                  formControlName="message"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <button type="button" (click)="onSubmit()">
+                  Enviar mensaje
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section
+  class="d-flex"
+  style="background-color: white; height: auto; margin: 50px 0"
+>
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div class="col-6 sixth-section justify-content-center align-self-center">
+        <h1>Nuestros aliados del cambio</h1>
+        <h5>
+          Como empresa, podrás sumarte a nuestra labor y convertirte en un
+          Aliado del Cambio, para ayuda a cambiar las vidas más vulnerables en
+          Perú.
+        </h5>
+      </div>
+      <div class="col-6 sixth-section justify-content-center align-self-center">
+        <img [src]="imagesTemplate?.sixth_section.src" alt="" />
+      </div>
+    </div>
+  </div>
+</section>
+<section class="d-flex" style="background-color: white; height: auto">
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-12 sixth-section justify-content-center align-self-center"
+      >
+        <p-carousel
+          [value]="imagesTemplate?.seventh_section.slider_a"
+          [numVisible]="9"
+          [numScroll]="1"
+          [circular]="true"
+          [autoplayInterval]="4000"
+          [showIndicators]="true"
+          [showNavigators]="true"
+          [responsiveOptions]="responsiveOptions"
+        >
+          <ng-template let-item pTemplate="item">
+            <div>
+              <img src="{{ item.src }}" />
+            </div>
+          </ng-template>
+        </p-carousel>
+      </div>
+      <div
+        class="col-12 sixth-section justify-content-center align-self-center"
+      >
+        <p-carousel
+          [value]="imagesTemplate?.seventh_section.slider_b"
+          [numVisible]="9"
+          [numScroll]="1"
+          [circular]="true"
+          [autoplayInterval]="4000"
+          [showIndicators]="true"
+          [showNavigators]="true"
+          [responsiveOptions]="responsiveOptions"
+        >
+          <ng-template let-item pTemplate="item">
+            <div>
+              <img src="{{ item.src }}" />
+            </div>
+          </ng-template>
+        </p-carousel>
+      </div>
+      <div
+        class="col-12 sixth-section justify-content-center align-self-center"
+      >
+        <p-carousel
+          [value]="imagesTemplate?.seventh_section.slider_c"
+          [numVisible]="9"
+          [numScroll]="1"
+          [circular]="true"
+          [autoplayInterval]="4000"
+          [showIndicators]="true"
+          [showNavigators]="true"
+          [responsiveOptions]="responsiveOptions"
+        >
+          <ng-template let-item pTemplate="item">
+            <div>
+              <img src="{{ item.src }}" />
+            </div>
+          </ng-template>
+        </p-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="background-color: white; height: auto; padding: 100px 0"
+>
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-12 sixth-section justify-content-center align-self-center"
+        style="text-align: center"
+      >
+        <h3>¿ERES UNA EMPRESA Y DESEAS SER PARTE DEL CAMBIO?</h3>
+        <h4>
+          Tenemos la certeza de que contar con el apoyo de tu empresa nos
+          permitirá desarrollar proyectos sociales en pro de los más
+          necesitados.
+        </h4>
+        <button>Quiero sumarme</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="background-color: #fef6df; height: auto; padding: 100px 0"
+>
+  <div class="container-xxl">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-6 seventh-section justify-content-center align-self-center"
+      >
+        <h3>ADOPTA UNA VIDA</h3>
+        <h1>
+          No puedes comprar la felicidad pero puedes adoptar a un perrito y es
+          casi lo mismo.
+        </h1>
+      </div>
+      <div class="col-3 sixth-section justify-content-center align-self-center">
+        <img [src]="imagesTemplate?.eigth_section.img1" alt="" />
+      </div>
+      <div class="col-3 sixth-section justify-content-center align-self-center">
+        <img [src]="imagesTemplate?.eigth_section.img2" alt="" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6"></div>
+      <div class="col-6 seventh-section" style="text-align: center">
+        <button>Conoce a todos los perritos</button>
+      </div>
+    </div>
+  </div>
+</section>
