@@ -1,0 +1,254 @@
+<section style="background-color: white; height: auto; padding: 12% 0 50px 0">
+  <div class="container-xxl">
+    <div
+      class="row justify-content-center align-self-center"
+      style="text-align: center; margin-top: 20px"
+    >
+      <div
+        class="col-10 first-section justify-content-center align-self-center"
+      >
+        <h1>Proyectos de Alimentación</h1>
+        <h2>
+          El hambre es una problemática que viene creciendo rápidamente en el
+          mundo.
+        </h2>
+        <button>Deseo donar a este proyecto</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="
+    background-color: white;
+    background-image: url('/assets/images/layouts/proyectos-bg.png');
+    background-position: center;
+    background-size: 80% 80%;
+  "
+>
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-6 second-section justify-content-center align-self-center"
+      >
+        <h1>Alimentación y esperanza para los más vulnerables</h1>
+        <h5>
+          Generamos acciones enfocadas en beneficiar a los más vulnerables
+          mediante la donación de víveres, acondicionamiento de comedores
+          populares y ollas comunes.
+        </h5>
+        <h5>
+          Nuestro principal propósito es combatir la hambruna y la mala
+          nutrición de los más vulnerables.
+        </h5>
+      </div>
+      <div class="col-1"></div>
+      <div
+        class="col-5 second-section justify-content-center align-self-center"
+      >
+        <ngb-carousel *ngIf="imagesTemplate" [interval]="5000">
+          <ng-template
+            ngbSlide
+            *ngFor="let image of imagesTemplate.second_section.slider"
+          >
+            <div class="picsum-img-wrapper wrapper-image-carousel">
+              <img [src]="image.src" class="image-carousel" />
+            </div>
+          </ng-template>
+        </ngb-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="
+    background-color: #f3fcff;
+    background-image: url('/assets/images/layouts/proyectos-bg-celeste.png');
+    background-position: center;
+    background-size: 100% 100%;
+  "
+>
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-5 second-section justify-content-center align-self-center"
+      >
+        <ngb-carousel *ngIf="imagesTemplate" [interval]="5000">
+          <ng-template
+            ngbSlide
+            *ngFor="let image of imagesTemplate.third_section.slider"
+          >
+            <div class="picsum-img-wrapper wrapper-image-carousel">
+              <img [src]="image.src" class="image-carousel" />
+            </div>
+          </ng-template>
+        </ngb-carousel>
+      </div>
+      <div class="col-1"></div>
+      <div
+        class="col-6 second-section justify-content-center align-self-center"
+      >
+        <h1>Creciendo con cuyes</h1>
+        <h5>
+          Realizamos en las comunidades vulnerables, la instalación y
+          capacitación continua sobre crianza tecnificada de cuyes.
+        </h5>
+        <h5>
+          A través de este proyecto, las comunidades podrán generar una fuente
+          de ingreso para la manutención de olla comunes o comedores populares.
+        </h5>
+        <h5>
+          Actualmente son más de 40 familias beneficiadas de forma mensual.
+        </h5>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="
+    background-color: white;
+    background-image: url('/assets/images/layouts/proyectos-bg.png');
+    background-position: center;
+    background-size: 80% 80%;
+  "
+>
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-6 second-section justify-content-center align-self-center"
+      >
+        <h1>Mi cerrito agricultor</h1>
+        <h5>
+          Por medio de la creación de biohuertos, enseñamos a las comunidades
+          vulnerables sobre el proceso de cultivo y siembra de alimentos,
+          haciendo énfasis en la importancia de consumir productos naturales que
+          son beneficiosos en la lucha contra la anemia.
+        </h5>
+        <h5>
+          Actualmente con más de 40 familias beneficiadas de forma mensual..
+        </h5>
+      </div>
+      <div class="col-1"></div>
+      <div
+        class="col-5 second-section justify-content-center align-self-center"
+      >
+        <ngb-carousel *ngIf="imagesTemplate" [interval]="5000">
+          <ng-template
+            ngbSlide
+            *ngFor="let image of imagesTemplate.fourth_section.slider"
+          >
+            <div class="picsum-img-wrapper wrapper-image-carousel">
+              <img [src]="image.src" class="image-carousel" />
+            </div>
+          </ng-template>
+        </ngb-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="
+    background-color: #fef6df;
+    background-image: url('/assets/images/layouts/bg-nosotros3.png');
+    background-position: center;
+    background-size: 100% 100%;
+  "
+>
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-5 second-section justify-content-center align-self-center"
+      >
+        <ngb-carousel *ngIf="imagesTemplate" [interval]="5000">
+          <ng-template
+            ngbSlide
+            *ngFor="let image of imagesTemplate.fifth_section.slider"
+          >
+            <div class="picsum-img-wrapper wrapper-image-carousel">
+              <img [src]="image.src" class="image-carousel" />
+            </div>
+          </ng-template>
+        </ngb-carousel>
+      </div>
+      <div class="col-1"></div>
+      <div
+        class="col-6 second-section justify-content-center align-self-center"
+      >
+        <h1>Ollas nutritivas</h1>
+        <h5>
+          Trabajamos en la lucha contra la anemia que cada vez cobra más fuerza
+          en las comunidades vulnerables.&nbsp; Para ellos realizamos la
+          evaluación médica, asesoría nutricional y donación de víveres en ollas
+          comunes y comedores populares, con el fin de brindar todo lo necesario
+          para una correcta alimentación, combatiendo la anemia en la zona.
+        </h5>
+        <h5>
+          Actualmente son más de 60 familias beneficiadas de forma mensual.
+        </h5>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="
+    background-color: white;
+    background-image: url('/assets/images/layouts/proyectos-bg.png');
+    background-position: center;
+    background-size: 80% 80%;
+  "
+>
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-6 second-section justify-content-center align-self-center"
+      >
+        <h1>Rescate de alimentos</h1>
+        <h5>
+          Junto con el Banco de Alimentos del Perú, nos unimos en el proyecto de
+          rescate de alimentos, con el objetivo de disminuir la cantidad de
+          alimentos desechados por mercados y bodegas, optimizando su uso en
+          comunidades de gran vulnerabilidad.
+        </h5>
+        <h5>
+          Actualmente beneficiamos a más de 500 familias de forma mensual.
+        </h5>
+      </div>
+      <div class="col-1"></div>
+      <div
+        class="col-5 second-section justify-content-center align-self-center"
+      >
+        <ngb-carousel *ngIf="imagesTemplate" [interval]="5000">
+          <ng-template
+            ngbSlide
+            *ngFor="let image of imagesTemplate.sixth_section.slider"
+          >
+            <div class="picsum-img-wrapper wrapper-image-carousel">
+              <img [src]="image.src" class="image-carousel" />
+            </div>
+          </ng-template>
+        </ngb-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="background-color: #50ba80; background-position: center"
+>
+  <div class="container-xxl">
+    <div
+      class="row justify-content-center align-self-center"
+      style="width: 100%"
+    >
+      <div
+        class="col-12 third-section justify-content-center align-self-center"
+      >
+        <h1>El peor enemigo en la lucha contra el hambre es la indiferencia</h1>
+      </div>
+    </div>
+  </div>
+</section>

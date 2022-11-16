@@ -1,0 +1,35 @@
+{
+    "second_section" : {
+        "slider" : [
+            { 
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/patitas-con-futuro.jpg"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/patitas-con-futuro2.jpg"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/patitas-con-futuro3.jpg"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/patitas-con-futuro4.jpg"
+            },
+            {
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/patitas-con-futuro5.jpg"
+            }
+        ]
+    },
+    "third_section" : {
+        "slider" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/esterilizacion.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/esterilizacion2.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/esterilizacion3.jpg" },
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/esterilizacion4.jpg" },
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/esterilizacion5.jpg" }
+        ]
+    },"fourth_section" : {
+        "slider" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/brigadas-caninas.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/brigadas-caninas2.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/brigadas-caninas3.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/brigadas-caninas4.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/brigadas-caninas5.jpg"}
+        ]
+    }
+}

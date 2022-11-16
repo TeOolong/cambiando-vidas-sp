@@ -2,7 +2,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { AlliesComponent } from './allies/allies.component';
+import { AnimalsProjectComponent } from './animals-project/animals-project.component';
 import { ContactComponent } from './contact/contact.component';
+import { EducationalProjectComponent } from './educational-project/educational-project.component';
+import { FoodProjectComponent } from './food-project/food-project.component';
 import { HealthProjectComponent } from './health-project/health-project.component';
 import { HomeComponent } from './home/home.component';
 import { ProyectsComponent } from './proyects/proyects.component';
@@ -23,6 +26,9 @@ const routes: Routes = [
       { path: 'allies', component: AlliesComponent },
       { path: 'contact', component: ContactComponent },
       { path: 'health-project', component: HealthProjectComponent },
+      { path: 'food-project', component: FoodProjectComponent },
+      { path: 'animals-project', component: AnimalsProjectComponent },
+      { path: 'educational-project', component: EducationalProjectComponent },
     ],
   },
   {

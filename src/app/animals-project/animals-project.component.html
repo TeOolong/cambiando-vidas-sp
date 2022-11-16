@@ -1,0 +1,179 @@
+<section style="background-color: white; height: auto; padding: 12% 0 50px 0">
+  <div class="container-xxl">
+    <div
+      class="row justify-content-center align-self-center"
+      style="text-align: center; margin-top: 20px"
+    >
+      <div
+        class="col-10 first-section justify-content-center align-self-center"
+      >
+        <h1>Proyectos de Animales</h1>
+        <h2>
+          Unimos esfuerzos por los animales en situación de calle, trabajando de
+          la mano con nuestro albergue “Patitas con Futuro”.
+        </h2>
+        <button>Deseo donar a este proyecto</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="
+    background-color: white;
+    background-image: url('/assets/images/layouts/proyectos-bg.png');
+    background-position: center;
+    background-size: 80% 80%;
+  "
+>
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-6 second-section justify-content-center align-self-center"
+      >
+        <h1>Albergue Patitas con Futuro</h1>
+        <h5>
+          Desde nuestros inicios siempre trabajamos enfocados en brindarle un
+          hogar a los animalitos en situación de calle.
+        </h5>
+        <h5>
+          De esta necesidad nace nuestro albergue canino, donde trabajamos
+          diariamente para poder alojar a muchos animalitos abandonados,
+          brindarles una correcta alimentación y atención veterinaria.
+        </h5>
+        <h5>
+          Nuestro albergue se encuentra ubicado en Ancón y cuenta con capacidad
+          para recibir aproximadamente a <b>50 animalitos</b> (perros, gatos,
+          entre otros). De igual forma contamos con áreas para su esparcimiento
+          y atención veterinaria.
+        </h5>
+      </div>
+      <div class="col-1"></div>
+      <div
+        class="col-5 second-section justify-content-center align-self-center"
+      >
+        <ngb-carousel *ngIf="imagesTemplate" [interval]="5000">
+          <ng-template
+            ngbSlide
+            *ngFor="let image of imagesTemplate.second_section.slider"
+          >
+            <div class="picsum-img-wrapper wrapper-image-carousel">
+              <img [src]="image.src" class="image-carousel" />
+            </div>
+          </ng-template>
+        </ngb-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="
+    background-color: #f3fcff;
+    background-image: url('/assets/images/layouts/proyectos-bg-celeste.png');
+    background-position: center;
+    background-size: 100% 100%;
+  "
+>
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-5 second-section justify-content-center align-self-center"
+      >
+        <ngb-carousel *ngIf="imagesTemplate" [interval]="5000">
+          <ng-template
+            ngbSlide
+            *ngFor="let image of imagesTemplate.third_section.slider"
+          >
+            <div class="picsum-img-wrapper wrapper-image-carousel">
+              <img [src]="image.src" class="image-carousel" />
+            </div>
+          </ng-template>
+        </ngb-carousel>
+      </div>
+      <div class="col-1"></div>
+      <div
+        class="col-6 second-section justify-content-center align-self-center"
+      >
+        <h1>Campañas de Esterilización gratuita</h1>
+        <h5>
+          En participación con otras fundaciones, municipalidades y albergues
+          aliados llevamos a cabo campañas de esterilización gratuita, donde
+          invitamos a la comunidad a realizar esta práctica en sus mascotas y
+          prevenir la sobrepoblación de animalitos abandonados.
+        </h5>
+        <h5>
+          <b>Atendemos gratuitamente a 100 animales de forma mensual</b>,
+          contando con el apoyo de veterinarios y profesionales en el área
+        </h5>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="
+    background-color: white;
+    background-image: url('/assets/images/layouts/proyectos-bg.png');
+    background-position: center;
+    background-size: 80% 80%;
+  "
+>
+  <div class="container-xxl d-flex">
+    <div class="row justify-content-center align-self-center">
+      <div
+        class="col-6 second-section justify-content-center align-self-center"
+      >
+        <h1>Brigadas Caninas</h1>
+        <h5>
+          Nuestro equipo de voluntarios se encarga de visitar las zonas más
+          vulnerables del Perú, que presentan mayor sobrepoblación de animales
+          abandonados, para brindarles alimentos, hidratación y atención médica.
+        </h5>
+        <h5>
+          Gracias a nuestra ambulancia canina, podemos brindar atención a estos
+          animalitos y garantizar que obtengan una ayuda veterinaria
+          profesional.
+        </h5>
+        <h5>
+          <b
+            >Cada año beneficiamos a más de 5.000 animales en situación de
+            calle</b
+          >, con apoyo de nuestros voluntarios.
+        </h5>
+      </div>
+      <div class="col-1"></div>
+      <div
+        class="col-5 second-section justify-content-center align-self-center"
+      >
+        <ngb-carousel *ngIf="imagesTemplate" [interval]="5000">
+          <ng-template
+            ngbSlide
+            *ngFor="let image of imagesTemplate.fourth_section.slider"
+          >
+            <div class="picsum-img-wrapper wrapper-image-carousel">
+              <img [src]="image.src" class="image-carousel" />
+            </div>
+          </ng-template>
+        </ngb-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="d-flex"
+  style="background-color: #50ba80; background-position: center"
+>
+  <div class="container-xxl">
+    <div
+      class="row justify-content-center align-self-center"
+      style="width: 100%"
+    >
+      <div
+        class="col-12 third-section justify-content-center align-self-center"
+      >
+        <h1>Quien no ama a los animales no conoce el verdadero amor</h1>
+      </div>
+    </div>
+  </div>
+</section>

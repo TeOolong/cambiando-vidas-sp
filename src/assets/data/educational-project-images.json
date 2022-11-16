@@ -1,0 +1,59 @@
+{
+    "second_section" : {
+        "slider" : [
+            { 
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/salvando-talento.jpg"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/salvando-talento2.jpg"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/salvando-talento3.jpg"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/salvando-talento4.jpg"
+            },
+            {
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/salvando-talento5.jpg"
+            }
+        ]
+    },
+    "third_section" : {
+        "slider" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/educando-para-el-futuro.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/educando-para-el-futuro2.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/educando-para-el-futuro3.jpg" },
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/educando-para-el-futuro4.jpg" },
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/educando-para-el-futuro5.jpg" }
+        ]
+    },"fourth_section" : {
+        "slider" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/tejiendo-suenos.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/tejiendo-suenos2.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/tejiendo-suenos3.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/tejiendo-suenos4.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/tejiendo-suenos5.jpg"}
+        ]
+    },"fifth_section" : {
+        "slider" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/talleres-productivos.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/talleres-productivos2.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/talleres-productivos3.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/talleres-productivos4.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/talleres-productivos5.jpg"}
+        ]
+    },"sixth_section" : {
+        "slider" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/donaciones-de-utiles.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/donaciones-de-utiles2.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/donaciones-de-utiles3.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/donaciones-de-utiles4.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/donaciones-de-utiles5.jpg"}
+        ]
+    }, "seventh_section" : {
+        "slider" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/talleres-centros-comerciales-1.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/talleres-centros-comerciales2-1.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/talleres-centros-comerciales3-1.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/talleres-centros-comerciales4-1.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/talleres-centros-comerciales5-1.jpg"}
+        ]
+    }
+}
