@@ -22,6 +22,9 @@ import { ButtonModule } from 'primeng/button';
 import { ToastModule } from 'primeng/toast';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HealthProjectComponent } from './health-project/health-project.component';
+import { FoodProjectComponent } from './food-project/food-project.component';
+import { EducationalProjectComponent } from './educational-project/educational-project.component';
+import { AnimalsProjectComponent } from './animals-project/animals-project.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +36,9 @@ import { HealthProjectComponent } from './health-project/health-project.componen
     AlliesComponent,
     ContactComponent,
     HealthProjectComponent,
+    FoodProjectComponent,
+    EducationalProjectComponent,
+    AnimalsProjectComponent,
   ],
   imports: [
     FormsModule,

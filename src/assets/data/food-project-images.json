@@ -1,0 +1,51 @@
+{
+    "second_section" : {
+        "slider" : [
+            { 
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/esperanza1-alimentacion.jpg"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/esperanza2-alimentacion.jpg"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/esperanza3-alimentacion.jpg"
+            },{
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/esperanza4-alimentacion.jpg"
+            },
+            {
+                "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/esperanza5-alimentacion.jpg"
+            }
+        ]
+    },
+    "third_section" : {
+        "slider" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/creciendo-con-cuyes1.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/creciendo-con-cuyes2.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/creciendo-con-cuyes3.jpg" },
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/creciendo-con-cuyes4.jpg" },
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/creciendo-con-cuyes5.jpg" }
+        ]
+    },"fourth_section" : {
+        "slider" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/Mi-cerrito.png"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/Mi-cerrito-2.png"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/3.png"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/Mi-cerrito-4.png"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/03/Mi-cerrito-5.png"}
+        ]
+    },"fifth_section" : {
+        "slider" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/ollas-nutritivas.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/ollas-nutritivas2.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/ollas-nutritivas3.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/ollas-nutritivas4.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/ollas-nutritivas5.jpg"}
+        ]
+    },"sixth_section" : {
+        "slider" : [
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/rescate-de-alimentos.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/rescate-de-alimentos2.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/rescate-de-alimentos3.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/rescate-de-alimentos4.jpg"},
+            { "src" : "https://cambiandovidas-peru.org/wp-content/uploads/2022/02/rescate-de-alimentos5.jpg"}
+        ]
+    }
+}

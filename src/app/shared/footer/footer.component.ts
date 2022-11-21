@@ -9,4 +9,8 @@ export class FooterComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  linkDonation() {
+    document.location.href = 'https://pagolink.niubiz.com.pe/pagoseguro/ONGCAMBIANDOVIDAS/449285';
+  }
 }

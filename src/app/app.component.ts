@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'workspace-proyect-management';
+  
+}
+
+export default function linkDonation() {
+  document.location.href = 'https://pagolink.niubiz.com.pe/pagoseguro/ONGCAMBIANDOVIDAS/449285';
 }

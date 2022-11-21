@@ -110,6 +110,10 @@ export class HomeComponent implements OnInit, OnDestroy {
     console.log('sas');
     this.asignObserver();
   }
+  
+  linkDonation() {
+    document.location.href = 'https://pagolink.niubiz.com.pe/pagoseguro/ONGCAMBIANDOVIDAS/449285';
+  }
 
   onSubmit() {}
 }
